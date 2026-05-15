@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高考志愿智能推荐系统</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei',sans-serif;background:#f0f2f5;min-height:100vh}
+.login-container{display:flex;justify-content:center;align-items:center;min-height:100vh;background:linear-gradient(135deg,#1a73e8,#0d47a1)}
+.auth-box{background:#fff;padding:36px 32px;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.3);width:400px;text-align:center}
+.auth-box h1{font-size:22px;color:#1a73e8;margin-bottom:4px}
+.auth-box .subtitle{color:#666;font-size:13px;margin-bottom:20px}
+.auth-box input{width:100%;padding:12px 14px;border:2px solid #e0e0e0;border-radius:8px;font-size:15px;margin-bottom:12px;outline:0;transition:border-color .3s}
+.auth-box input:focus{border-color:#1a73e8}
+.auth-box .btn{width:100%;padding:12px;border:0;border-radius:8px;font-size:15px;cursor:pointer;font-weight:600;transition:background .3s}
+.btn-blue{background:#1a73e8;color:#fff}
+.btn-blue:hover{background:#1557b0}
+.btn-outline{background:#fff;color:#1a73e8;border:2px solid #1a73e8!important;margin-top:8px}
+.btn-outline:hover{background:#e8f0fe}
+.btn-gold{background:linear-gradient(135deg,#f9a825,#f57f17);color:#fff}
+.btn-gold:hover{background:linear-gradient(135deg,#f57f17,#e65100)}
+.auth-error{color:#d32f2f;font-size:13px;margin-top:4px;display:none;min-height:20px}
+.auth-success{color:#2e7d32;font-size:13px;margin-top:4px;display:none;min-height:20px}
+.switch-link{color:#1a73e8;cursor:pointer;font-size:13px;margin-top:12px;display:inline-block}
+.switch-link:hover{text-decoration:underline}
+
+.app-container{display:none;max-width:1100px;margin:0 auto;padding:20px}
+.app-header{background:#fff;padding:14px 24px;border-radius:12px;display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.08);flex-wrap:wrap;gap:10px}
+.app-header h1{font-size:19px;color:#1a73e8}
+.header-right{display:flex;align-items:center;gap:12px}
+.user-info{font-size:13px;color:#333}
+.user-info .vip-badge{background:linear-gradient(135deg,#f9a825,#f57f17);color:#fff;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700;margin-left:6px}
+.quota-info{font-size:13px;color:#666}
+.quota-info span{font-weight:700;color:#1a73e8}
+.btn-sm{padding:7px 14px;border:1px solid #ddd;border-radius:6px;cursor:pointer;font-size:12px;background:#fff}
+.btn-sm:hover{background:#f5f5f5}
+
+.card{background:#fff;border-radius:12px;padding:24px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.card h2{font-size:18px;color:#333;margin-bottom:16px;padding-bottom:12px;border-bottom:2px solid #e8f0fe}
+.form-row{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+.form-group{flex:1;min-width:150px}
+.form-group label{display:block;font-size:13px;color:#666;margin-bottom:6px;font-weight:600}
+.form-group select,.form-group input{width:100%;padding:10px 14px;border:2px solid #e0e0e0;border-radius:8px;font-size:15px;outline:0}
+.form-group select:focus,.form-group input:focus{border-color:#1a73e8}
+.btn-primary{padding:12px 32px;background:#1a73e8;color:#fff;border:0;border-radius:8px;font-size:15px;cursor:pointer;font-weight:600}
+.btn-primary:hover{background:#1557b0}
+.btn-primary:disabled{background:#ccc;cursor:not-allowed}
+
+.rank-display{background:linear-gradient(135deg,#e8f0fe,#d2e3fc);padding:20px;border-radius:10px;text-align:center;margin-bottom:20px;display:none}
+.rank-display .rank-num{font-size:42px;font-weight:800;color:#1a73e8}
+.rank-display .rank-label{font-size:14px;color:#666;margin-top:4px}
+
+.tier-section{margin-bottom:24px}
+.tier-header{padding:10px 16px;border-radius:8px;font-weight:700;font-size:15px;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.tier-reach{background:#fce4ec;color:#c62828}
+.tier-match{background:#e8f5e9;color:#2e7d32}
+.tier-safety{background:#e3f2fd;color:#1565c0}
+.tier-badge{padding:2px 10px;border-radius:12px;font-size:11px;font-weight:600}
+.badge-reach{background:#ef9a9a;color:#fff}
+.badge-match{background:#81c784;color:#fff}
+.badge-safety{background:#64b5f6;color:#fff}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{background:#f8f9fa;padding:10px 12px;text-align:left;font-weight:600;color:#555;border-bottom:2px solid #e0e0e0;font-size:13px}
+td{padding:10px 12px;border-bottom:1px solid #f0f0f0}
+tr:hover td{background:#f8f9ff}
+.tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;margin-right:4px}
+.tag-985{background:#ffebee;color:#c62828}
+.tag-211{background:#fff3e0;color:#e65100}
+.tag-double{background:#e8f5e9;color:#2e7d32}
+.empty-state{text-align:center;padding:40px;color:#999}
+
+.recharge-modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.5);z-index:999;justify-content:center;align-items:center}
+.recharge-box{background:#fff;border-radius:12px;padding:32px;width:420px;max-width:90vw;text-align:center}
+.recharge-box h2{font-size:20px;margin-bottom:20px;color:#333}
+.recharge-box input{width:100%;padding:10px 14px;border:2px solid #e0e0e0;border-radius:8px;font-size:15px;margin-bottom:16px;outline:0;text-align:center}
+.recharge-box input:focus{border-color:#f9a825}
+.recharge-box .plan-list{display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap;justify-content:center}
+.recharge-box .plan-item{border:2px solid #e0e0e0;border-radius:10px;padding:16px 12px;cursor:pointer;text-align:center;flex:1;min-width:100px;transition:all .2s}
+.recharge-box .plan-item:hover,.plan-item.selected{border-color:#f9a825;background:#fffde7}
+.recharge-box .plan-item .plan-quota{font-size:24px;font-weight:800;color:#f57f17}
+.recharge-box .plan-item .plan-price{font-size:13px;color:#666;margin-top:4px}
+.recharge-msg{font-size:13px;min-height:20px;margin-top:8px}
+.btn-close{position:absolute;top:55px;right:50%;transform:translateX(210px);background:0;border:0;font-size:24px;cursor:pointer;color:#999}
+
+@media(max-width:768px){.form-row{flex-direction:column}.app-container{padding:12px}.card{padding:16px}.auth-box{width:92vw}}
+</style>
+</head>
+<body>
+
+<!-- Auth Screen -->
+<div class="login-container" id="authScreen">
+<div class="auth-box">
+<h1 id="authTitle">&#x1F393; 登录</h1>
+<p class="subtitle" id="authSubtitle">高考志愿智能推荐系统</p>
+<div id="registerFields" style="display:none">
+<input type="text" id="regUsername" placeholder="设置用户名（4-20位）" autocomplete="off">
+<input type="password" id="regPassword" placeholder="设置密码（6-20位）" autocomplete="off">
+<input type="password" id="regPassword2" placeholder="确认密码" autocomplete="off">
+<button class="btn btn-blue" onclick="register()">&#x1F4DD; 注册账号</button>
+</div>
+<div id="loginFields">
+<input type="text" id="loginUsername" placeholder="用户名" autocomplete="off">
+<input type="password" id="loginPassword" placeholder="密码" autocomplete="off">
+<button class="btn btn-blue" onclick="login()">&#x1F511; 登录</button>
+</div>
+<div class="auth-error" id="authError"></div>
+<div class="auth-success" id="authSuccess"></div>
+<span class="switch-link" id="switchLink" onclick="toggleAuth()">没有账号？点击注册</span>
+</div>
+</div>
+
+<!-- Main App -->
+<div class="app-container" id="appScreen">
+<div class="app-header">
+<h1>&#x1F393; 高考志愿智能推荐</h1>
+<div class="header-right">
+<span class="user-info" id="userDisplay"></span>
+<span class="quota-info" id="quotaDisplay"></span>
+<button class="btn-sm btn-gold" onclick="openRecharge()" style="padding:7px 12px;border:0;color:#fff;">&#x1F4B0; 充值</button>
+<button class="btn-sm" onclick="logout()">退出</button>
+</div>
+</div>
+
+<div class="card">
+<h2>&#x1F4CB; 输入你的高考信息</h2>
+<div class="form-row">
+<div class="form-group"><label>考试省份</label><select id="province"><option value="shandong">山东</option><option value="henan">河南</option></select></div>
+<div class="form-group"><label>科类</label><select id="category"><option value="physics">物理类/理科</option><option value="history">历史类/文科</option></select></div>
+<div class="form-group"><label>高考年份</label><select id="year"><option value="2025">2025年</option><option value="2024">2024年</option></select></div>
+<div class="form-group"><label>你的高考分数</label><input type="number" id="score" placeholder="例如：620" min="100" max="750"></div>
+</div>
+<button class="btn-primary" id="btnAnalyze" onclick="analyze()">&#x1F50D; 开始推荐</button>
+</div>
+
+<div class="rank-display" id="rankDisplay">
+<div class="rank-num" id="rankNum">--</div>
+<div class="rank-label">你的预估省排名位次</div>
+<div style="margin-top:8px;color:#888;font-size:12px;">分数 <span id="displayScore"></span> 分 | 同分人数约 <span id="sameScoreCount"></span> 人</div>
+</div>
+
+<div class="card" id="resultsCard" style="display:none;">
+<h2>&#x1F4CA; 推荐结果</h2>
+<div id="resultsContainer"></div>
+</div>
+</div>
+
+<!-- Recharge Modal -->
+<div class="recharge-modal" id="rechargeModal">
+<div class="recharge-box" style="position:relative">
+<button class="btn-close" onclick="closeRecharge()" style="position:absolute;top:8px;right:12px">&times;</button>
+<h2>&#x1F4B0; 账户充值</h2>
+<div class="plan-list">
+<div class="plan-item" onclick="selectPlan(1)" id="plan1"><div class="plan-quota">10次</div><div class="plan-price">&#165;9.9</div></div>
+<div class="plan-item" onclick="selectPlan(2)" id="plan2"><div class="plan-quota">50次</div><div class="plan-price">&#165;29.9</div></div>
+<div class="plan-item" onclick="selectPlan(3)" id="plan3"><div class="plan-quota">无限</div><div class="plan-price">&#165;99.9</div></div>
+</div>
+<input type="text" id="rechargeCode" placeholder="请输入充值码（演示码：DEMO10 / DEMO50 / DEMOVIP）" autocomplete="off">
+<button class="btn btn-gold" onclick="doRecharge()">&#x26A1; 确认充值</button>
+<div class="recharge-msg" id="rechargeMsg"></div>
+<p style="margin-top:12px;font-size:11px;color:#999;">演示充值码：DEMO10（+10次）| DEMO50（+50次）| DEMOVIP（无限）</p>
+</div>
+</div>
+
+<script>
+// ============ DATA ============
+var oneSectionData={
+shandong:{2024:{physics:{700:35,695:80,690:150,685:260,680:420,675:640,670:930,665:1300,660:1750,655:2300,650:3000,645:3800,640:4800,635:5900,630:7200,625:8700,620:10400,615:12300,610:14500,605:16800,600:19500,595:22300,590:25500,585:28900,580:32600,575:36600,570:40800,565:45300,560:50100,555:55200,550:60600,545:66300,540:72300,535:78600,530:85200,525:92100,520:99300,515:106800,510:114600,505:122700,500:131100,495:139800,490:148800,485:158100,480:167700,475:177600,470:187800,465:198300,460:209100,455:220200,450:231600},
+history:{680:3,675:8,670:18,665:40,660:80,655:140,650:240,645:380,640:580,635:850,630:1200,625:1650,620:2200,615:2900,610:3700,605:4600,600:5700,595:6900,590:8300,585:9800,580:11500,575:13400,570:15500,565:17800,560:20300,555:23000,550:25900,545:29000,540:32300,535:35800,530:39500,525:43400,520:47500}},
+henan:{2024:{physics:{700:52,690:200,680:550,670:1200,660:2200,650:3700,640:5800,630:8600,620:12300,610:17000,600:22800,590:29800,580:38000,570:47600,560:58600,550:71100,540:85200,530:100900,520:118200},
+history:{660:15,650:60,640:160,630:350,620:700,610:1200,600:2000,590:3100,580:4600,570:6600,560:9100,550:12300,540:16200}}}};
+
+var schoolsData=[
+{id:1,name:'北京大学',province:'北京',tags:['985','211','双一流'],type:'综合',minRank:100,minScore:692,major:'理科试验班'},
+{id:2,name:'清华大学',province:'北京',tags:['985','211','双一流'],type:'综合',minRank:80,minScore:695,major:'工科试验班'},
+{id:3,name:'复旦大学',province:'上海',tags:['985','211','双一流'],type:'综合',minRank:280,minScore:684,major:'经济管理试验班'},
+{id:4,name:'上海交通大学',province:'上海',tags:['985','211','双一流'],type:'综合',minRank:220,minScore:686,major:'电子信息类'},
+{id:5,name:'浙江大学',province:'浙江',tags:['985','211','双一流'],type:'综合',minRank:400,minScore:679,major:'竺可桢学院'},
+{id:6,name:'南京大学',province:'江苏',tags:['985','211','双一流'],type:'综合',minRank:700,minScore:672,major:'人工智能'},
+{id:7,name:'中国科学技术大学',province:'安徽',tags:['985','211','双一流'],type:'理工',minRank:550,minScore:676,major:'计算机类'},
+{id:8,name:'哈尔滨工业大学',province:'黑龙江',tags:['985','211','双一流'],type:'理工',minRank:3000,minScore:650,major:'航天与自动化'},
+{id:9,name:'西安交通大学',province:'陕西',tags:['985','211','双一流'],type:'综合',minRank:3800,minScore:644,major:'电气工程'},
+{id:10,name:'武汉大学',province:'湖北',tags:['985','211','双一流'],type:'综合',minRank:4800,minScore:639,major:'测绘工程'},
+{id:11,name:'华中科技大学',province:'湖北',tags:['985','211','双一流'],type:'理工',minRank:4200,minScore:641,major:'光电信息'},
+{id:12,name:'东南大学',province:'江苏',tags:['985','211','双一流'],type:'综合',minRank:5500,minScore:636,major:'建筑学'},
+{id:13,name:'北京航空航天大学',province:'北京',tags:['985','211','双一流'],type:'理工',minRank:1800,minScore:660,major:'飞行器设计'},
+{id:14,name:'同济大学',province:'上海',tags:['985','211','双一流'],type:'理工',minRank:2600,minScore:653,major:'土木工程'},
+{id:15,name:'南开大学',province:'天津',tags:['985','211','双一流'],type:'综合',minRank:3500,minScore:647,major:'金融学'},
+{id:16,name:'山东大学',province:'山东',tags:['985','211','双一流'],type:'综合',minRank:12000,minScore:610,major:'临床医学'},
+{id:17,name:'中国海洋大学',province:'山东',tags:['985','211','双一流'],type:'综合',minRank:20000,minScore:595,major:'海洋科学'},
+{id:18,name:'中国石油大学(华东)',province:'山东',tags:['211','双一流'],type:'理工',minRank:28000,minScore:582,major:'石油工程'},
+{id:19,name:'北京邮电大学',province:'北京',tags:['211','双一流'],type:'理工',minRank:6000,minScore:633,major:'通信工程'},
+{id:20,name:'南京航空航天大学',province:'江苏',tags:['211','双一流'],type:'理工',minRank:9000,minScore:623,major:'航空航天工程'},
+{id:21,name:'南京理工大学',province:'江苏',tags:['211','双一流'],type:'理工',minRank:10000,minScore:619,major:'兵器科学与技术'},
+{id:22,name:'华东理工大学',province:'上海',tags:['211','双一流'],type:'理工',minRank:11000,minScore:615,major:'化学工程'},
+{id:23,name:'哈尔滨工程大学',province:'黑龙江',tags:['211','双一流'],type:'理工',minRank:15000,minScore:604,major:'船舶工程'},
+{id:24,name:'武汉理工大学',province:'湖北',tags:['211','双一流'],type:'理工',minRank:17000,minScore:600,major:'材料科学'},
+{id:25,name:'合肥工业大学',province:'安徽',tags:['211','双一流'],type:'理工',minRank:22000,minScore:592,major:'车辆工程'},
+{id:26,name:'西南交通大学',province:'四川',tags:['211','双一流'],type:'理工',minRank:18000,minScore:597,major:'交通运输'},
+{id:27,name:'西安电子科技大学',province:'陕西',tags:['211','双一流'],type:'理工',minRank:8000,minScore:627,major:'电子信息'},
+{id:28,name:'青岛大学',province:'山东',tags:[],type:'综合',minRank:50000,minScore:555,major:'医学检验'},
+{id:29,name:'山东科技大学',province:'山东',tags:[],type:'理工',minRank:60000,minScore:545,major:'采矿工程'},
+{id:30,name:'济南大学',province:'山东',tags:[],type:'综合',minRank:65000,minScore:538,major:'材料科学'}
+];
+
+// ============ VIP INTERNAL ACCOUNTS ============
+var VIP_ACCOUNTS = ['admin','vip001','vip002','vip003'];
+
+// ============ AUTH SYSTEM ============
+var isLoginMode = true;
+var currentUser = null;
+
+function getUsers(){
+  var data = localStorage.getItem('gaokao_users');
+  return data ? JSON.parse(data) : {};
+}
+function saveUsers(users){
+  localStorage.setItem('gaokao_users', JSON.stringify(users));
+}
+
+function toggleAuth(){
+  isLoginMode = !isLoginMode;
+  if(isLoginMode){
+    document.getElementById('authTitle').innerHTML = '&#x1F393; 登录';
+    document.getElementById('authSubtitle').textContent = '高考志愿智能推荐系统';
+    document.getElementById('loginFields').style.display = 'block';
+    document.getElementById('registerFields').style.display = 'none';
+    document.getElementById('switchLink').textContent = '没有账号？点击注册';
+  }else{
+    document.getElementById('authTitle').innerHTML = '&#x1F4DD; 注册';
+    document.getElementById('authSubtitle').textContent = '创建你的专属账号';
+    document.getElementById('loginFields').style.display = 'none';
+    document.getElementById('registerFields').style.display = 'block';
+    document.getElementById('switchLink').textContent = '已有账号？点击登录';
+  }
+  clearAuthMsg();
+}
+
+function clearAuthMsg(){
+  document.getElementById('authError').style.display = 'none';
+  document.getElementById('authError').textContent = '';
+  document.getElementById('authSuccess').style.display = 'none';
+  document.getElementById('authSuccess').textContent = '';
+}
+
+function register(){
+  clearAuthMsg();
+  var username = document.getElementById('regUsername').value.trim();
+  var password = document.getElementById('regPassword').value;
+  var password2 = document.getElementById('regPassword2').value;
+  if(username.length < 4 || username.length > 20){
+    showAuthError('用户名需 4-20 个字符'); return;
+  }
+  if(password.length < 6 || password.length > 20){
+    showAuthError('密码需 6-20 个字符'); return;
+  }
+  if(password !== password2){
+    showAuthError('两次密码不一致'); return;
+  }
+  var users = getUsers();
+  if(users[username]){
+    showAuthError('该用户名已被注册'); return;
+  }
+  var isVip = VIP_ACCOUNTS.indexOf(username) !== -1;
+  users[username] = {
+    password: simpleHash(password),
+    isVip: isVip,
+    queries: isVip ? -1 : 3,  // -1 = unlimited, 3 free queries for new users
+    createdAt: new Date().toISOString()
+  };
+  saveUsers(users);
+  document.getElementById('authSuccess').style.display = 'block';
+  document.getElementById('authSuccess').textContent = '注册成功！' + (isVip ? ' VIP账号已激活' : ' 赠送3次免费查询');
+  document.getElementById('loginUsername').value = username;
+  setTimeout(function(){ toggleAuth(); }, 1200);
+}
+
+function login(){
+  clearAuthMsg();
+  var username = document.getElementById('loginUsername').value.trim();
+  var password = document.getElementById('loginPassword').value;
+  if(!username || !password){
+    showAuthError('请输入用户名和密码'); return;
+  }
+  var users = getUsers();
+  var user = users[username];
+  if(!user){
+    showAuthError('用户名不存在'); return;
+  }
+  if(user.password !== simpleHash(password)){
+    showAuthError('密码错误'); return;
+  }
+  currentUser = { username: username, isVip: user.isVip, queries: user.queries };
+  localStorage.setItem('gaokao_current', username);
+  showApp();
+}
+
+function logout(){
+  if(currentUser){
+    var users = getUsers();
+    if(users[currentUser.username]){
+      users[currentUser.username].queries = currentUser.queries;
+      saveUsers(users);
+    }
+  }
+  currentUser = null;
+  localStorage.removeItem('gaokao_current');
+  document.getElementById('appScreen').style.display = 'none';
+  document.getElementById('authScreen').style.display = 'flex';
+  document.getElementById('loginPassword').value = '';
+  document.getElementById('resultsCard').style.display = 'none';
+  document.getElementById('rankDisplay').style.display = 'none';
+}
+
+function showApp(){
+  document.getElementById('authScreen').style.display = 'none';
+  document.getElementById('appScreen').style.display = 'block';
+  updateHeader();
+}
+
+function updateHeader(){
+  if(!currentUser) return;
+  var vipHtml = currentUser.isVip ? '<span class="vip-badge">VIP</span>' : '';
+  document.getElementById('userDisplay').innerHTML = '&#x1F464; ' + currentUser.username + vipHtml;
+  var quotaText = currentUser.isVip ? '无限次' : currentUser.queries + '次';
+  document.getElementById('quotaDisplay').innerHTML = '剩余：<span>' + quotaText + '</span>';
+  document.getElementById('btnAnalyze').disabled = (!currentUser.isVip && currentUser.queries <= 0);
+}
+
+function showAuthError(msg){
+  var el = document.getElementById('authError');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+function simpleHash(str){
+  var hash = 0;
+  for(var i = 0; i < str.length; i++){
+    var chr = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + chr;
+    hash |= 0;
+  }
+  return 'h' + Math.abs(hash).toString(36);
+}
+
+// ============ RECHARGE ============
+var selectedPlan = 1;
+
+function openRecharge(){
+  document.getElementById('rechargeModal').style.display = 'flex';
+  selectedPlan = 1;
+  document.querySelectorAll('.plan-item').forEach(function(el){ el.classList.remove('selected'); });
+  document.getElementById('plan1').classList.add('selected');
+  document.getElementById('rechargeCode').value = '';
+  document.getElementById('rechargeMsg').textContent = '';
+  document.getElementById('rechargeMsg').style.color = '#666';
+}
+
+function closeRecharge(){
+  document.getElementById('rechargeModal').style.display = 'none';
+}
+
+function selectPlan(n){
+  selectedPlan = n;
+  document.querySelectorAll('.plan-item').forEach(function(el){ el.classList.remove('selected'); });
+  document.getElementById('plan'+n).classList.add('selected');
+}
+
+function doRecharge(){
+  var code = document.getElementById('rechargeCode').value.trim().toUpperCase();
+  var msgEl = document.getElementById('rechargeMsg');
+  if(!code){
+    msgEl.textContent = '请输入充值码';
+    msgEl.style.color = '#d32f2f';
+    return;
+  }
+  var addedQueries = 0;
+  var makeVip = false;
+  if(code === 'DEMO10'){ addedQueries = 10; }
+  else if(code === 'DEMO50'){ addedQueries = 50; }
+  else if(code === 'DEMOVIP'){ makeVip = true; addedQueries = -1; }
+  else {
+    msgEl.textContent = '无效的充值码（演示码：DEMO10 / DEMO50 / DEMOVIP）';
+    msgEl.style.color = '#d32f2f';
+    return;
+  }
+  if(!currentUser) return;
+  if(makeVip){
+    currentUser.isVip = true;
+    currentUser.queries = -1;
+    msgEl.textContent = '充值成功！已升级为 VIP 无限次使用';
+  }else{
+    if(currentUser.queries === -1) currentUser.queries = 0;
+    currentUser.queries += addedQueries;
+    msgEl.textContent = '充值成功！已增加 ' + addedQueries + ' 次查询';
+  }
+  msgEl.style.color = '#2e7d32';
+  updateHeader();
+  var users = getUsers();
+  if(users[currentUser.username]){
+    users[currentUser.username].isVip = currentUser.isVip;
+    users[currentUser.username].queries = currentUser.queries;
+    saveUsers(users);
+  }
+  setTimeout(closeRecharge, 1500);
+}
+
+// ============ APP LOGIC ============
+function scoreToRank(score,province,year,category){
+  var provData=oneSectionData[province];
+  if(!provData)return null;
+  var yearData=provData[year];
+  if(!yearData)return null;
+  var table=yearData[category];
+  if(!table)return null;
+  var scores=Object.keys(table).map(Number).sort(function(a,b){return b-a});
+  for(var i=0;i<scores.length;i++){
+    if(score>=scores[i]){
+      var lowerScore=scores[i];
+      var lowerRank=table[lowerScore];
+      if(score===lowerScore)return lowerRank;
+      if(i>0){
+        var upperScore=scores[i-1];
+        var upperRank=table[upperScore];
+        var ratio=(score-lowerScore)/(upperScore-lowerScore);
+        return Math.round(lowerRank+ratio*(upperRank-lowerRank));
+      }
+      return lowerRank;
+    }
+  }
+  return table[scores[scores.length-1]]+(scores[scores.length-1]-score)*200;
+}
+
+function analyze(){
+  if(!currentUser) return;
+  if(!currentUser.isVip && currentUser.queries <= 0){
+    alert('查询次数已用完，请充值后再使用');
+    openRecharge();
+    return;
+  }
+  var province=document.getElementById('province').value;
+  var category=document.getElementById('category').value;
+  var year=parseInt(document.getElementById('year').value);
+  var score=parseInt(document.getElementById('score').value);
+  if(!score||score<100||score>750){alert('请输入有效的高考分数（100-750）');return;}
+  var rank=scoreToRank(score,province,year,category);
+  if(!rank){alert('暂无该省份的数据');return;}
+
+  // Deduct query
+  if(!currentUser.isVip){
+    currentUser.queries--;
+  }
+  updateHeader();
+
+  document.getElementById('rankDisplay').style.display='block';
+  document.getElementById('rankNum').textContent=rank.toLocaleString();
+  document.getElementById('displayScore').textContent=score;
+  document.getElementById('sameScoreCount').textContent=Math.round(rank*0.02).toLocaleString();
+  var reach=[],match=[],safety=[];
+  schoolsData.forEach(function(s){
+    if(s.minRank<rank*1.4&&s.minRank>=rank*1.1)reach.push(Object.assign({},s,{probability:'20%-40%'}));
+    else if(s.minRank<rank*1.1&&s.minRank>=rank*0.85)match.push(Object.assign({},s,{probability:'50%-80%'}));
+    else if(s.minRank<rank*0.85&&s.minRank>=rank*0.55)safety.push(Object.assign({},s,{probability:'85%-99%'}));
+  });
+  reach.sort(function(a,b){return a.minRank-b.minRank});
+  match.sort(function(a,b){return a.minRank-b.minRank});
+  safety.sort(function(a,b){return a.minRank-b.minRank});
+  var html='';
+  if(reach.length>0)html+=renderTier('冲刺','reach','这些学校录取位次略高于你，有一定难度但值得尝试',reach);
+  if(match.length>0)html+=renderTier('稳妥','match','这些学校录取位次与你匹配，录取概率较高',match);
+  if(safety.length>0)html+=renderTier('保底','safety','这些学校录取位次低于你，基本确保录取',safety);
+  if(html==='')html='<div class="empty-state"><div style="font-size:48px;margin-bottom:12px;">&#x1F50D;</div><p>没有找到匹配的学校</p></div>';
+  document.getElementById('resultsContainer').innerHTML=html;
+  document.getElementById('resultsCard').style.display='block';
+  document.getElementById('resultsCard').scrollIntoView({behavior:'smooth'});
+  // Save state
+  var users=getUsers();
+  if(users[currentUser.username]){
+    users[currentUser.username].queries=currentUser.queries;
+    saveUsers(users);
+  }
+}
+
+function renderTier(name,tierClass,description,schools){
+  var badgeClass=tierClass==='reach'?'badge-reach':tierClass==='match'?'badge-match':'badge-safety';
+  var html='<div class="tier-section"><div class="tier-header tier-'+tierClass+'"><span class="tier-badge '+badgeClass+'">'+name+'</span><span style="font-weight:400;font-size:13px;">'+description+'（'+schools.length+'所）</span></div><div style="overflow-x:auto;"><table><thead><tr><th>院校名称</th><th>所在地</th><th>标签</th><th>推荐专业</th><th>最低录取位次</th><th>最低分</th><th>录取概率</th></tr></thead><tbody>';
+  schools.forEach(function(s){
+    var tags='';
+    s.tags.forEach(function(t){
+      var cls=t==='985'?'tag-985':t==='211'?'tag-211':'tag-double';
+      tags+='<span class="tag '+cls+'">'+t+'</span>';
+    });
+    html+='<tr><td><strong>'+s.name+'</strong></td><td>'+s.province+'</td><td>'+(tags||'-')+'</td><td>'+s.major+'</td><td>'+s.minRank.toLocaleString()+'</td><td>'+s.minScore+'</td><td>'+s.probability+'</td></tr>';
+  });
+  html+='</tbody></table></div></div>';
+  return html;
+}
+
+// ============ INIT ============
+document.addEventListener('DOMContentLoaded',function(){
+  var savedUser = localStorage.getItem('gaokao_current');
+  if(savedUser){
+    var users = getUsers();
+    var user = users[savedUser];
+    if(user){
+      currentUser = { username: savedUser, isVip: user.isVip, queries: user.queries };
+      showApp();
+      return;
+    }
+  }
+  document.getElementById('authScreen').style.display = 'flex';
+});
+
+// Enter key support
+document.addEventListener('keydown',function(e){
+  if(e.key==='Enter'){
+    var authVisible = document.getElementById('authScreen').style.display !== 'none';
+    if(authVisible){
+      if(isLoginMode) login(); else register();
+    }
+  }
+});
+
+// Click outside recharge to close
+document.getElementById('rechargeModal').addEventListener('click',function(e){
+  if(e.target === this) closeRecharge();
+});
+</script>
+</body>
+</html>

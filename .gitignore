@@ -1,0 +1,12 @@
+# Cloned projects (too large)
+opsariichthys-bidens/
+gaokao-vault/
+
+# Temp files
+_gen.py
+make_plan.py
+test_write.txt
+*.zip
+
+# OS
+Thumbs.db
