@@ -3,130 +3,462 @@
     "id": 1,
     "name": "北京大学",
     "province": "北京",
-    "city": "北京",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "综合",
-    "website": "https://www.pku.edu.cn"
+    "type": "综合"
   },
   {
     "id": 2,
     "name": "清华大学",
     "province": "北京",
-    "city": "北京",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "综合",
-    "website": "https://www.tsinghua.edu.cn"
+    "type": "综合"
   },
   {
     "id": 3,
     "name": "复旦大学",
     "province": "上海",
-    "city": "上海",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "综合",
-    "website": "https://www.fudan.edu.cn"
+    "type": "综合"
   },
   {
     "id": 4,
     "name": "上海交通大学",
     "province": "上海",
-    "city": "上海",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "综合",
-    "website": "https://www.sjtu.edu.cn"
+    "type": "综合"
   },
   {
     "id": 5,
     "name": "浙江大学",
     "province": "浙江",
-    "city": "杭州",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "综合",
-    "website": "https://www.zju.edu.cn"
+    "type": "综合"
   },
   {
     "id": 6,
     "name": "南京大学",
     "province": "江苏",
-    "city": "南京",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "综合",
-    "website": "https://www.nju.edu.cn"
+    "type": "综合"
   },
   {
     "id": 7,
     "name": "中国科学技术大学",
     "province": "安徽",
-    "city": "合肥",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "理工",
-    "website": "https://www.ustc.edu.cn"
+    "type": "理工"
   },
   {
     "id": 8,
     "name": "哈尔滨工业大学",
     "province": "黑龙江",
-    "city": "哈尔滨",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "理工",
-    "website": "https://www.hit.edu.cn"
+    "type": "理工"
   },
   {
     "id": 9,
     "name": "西安交通大学",
     "province": "陕西",
-    "city": "西安",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "综合",
-    "website": "https://www.xjtu.edu.cn"
+    "type": "综合"
   },
   {
     "id": 10,
     "name": "武汉大学",
     "province": "湖北",
-    "city": "武汉",
     "tags": [
       "985",
       "211",
       "双一流"
     ],
-    "type": "综合",
-    "website": "https://www.whu.edu.cn"
+    "type": "综合"
+  },
+  {
+    "id": 11,
+    "name": "华中科技大学",
+    "province": "湖北",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 12,
+    "name": "东南大学",
+    "province": "江苏",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合"
+  },
+  {
+    "id": 13,
+    "name": "北京航空航天大学",
+    "province": "北京",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 14,
+    "name": "同济大学",
+    "province": "上海",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 15,
+    "name": "南开大学",
+    "province": "天津",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合"
+  },
+  {
+    "id": 16,
+    "name": "山东大学",
+    "province": "山东",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合"
+  },
+  {
+    "id": 17,
+    "name": "中国海洋大学",
+    "province": "山东",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合"
+  },
+  {
+    "id": 18,
+    "name": "中国石油大学(华东)",
+    "province": "山东",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 19,
+    "name": "北京邮电大学",
+    "province": "北京",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 20,
+    "name": "南京航空航天大学",
+    "province": "江苏",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 21,
+    "name": "南京理工大学",
+    "province": "江苏",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 22,
+    "name": "华东理工大学",
+    "province": "上海",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 23,
+    "name": "哈尔滨工程大学",
+    "province": "黑龙江",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 24,
+    "name": "武汉理工大学",
+    "province": "湖北",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 25,
+    "name": "合肥工业大学",
+    "province": "安徽",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 26,
+    "name": "西南交通大学",
+    "province": "四川",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 27,
+    "name": "西安电子科技大学",
+    "province": "陕西",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 28,
+    "name": "南京医科大学",
+    "province": "江苏",
+    "tags": [
+      "双一流"
+    ],
+    "type": "医药"
+  },
+  {
+    "id": 29,
+    "name": "南京农业大学",
+    "province": "江苏",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "农林"
+  },
+  {
+    "id": 30,
+    "name": "东华大学",
+    "province": "上海",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "理工"
+  },
+  {
+    "id": 31,
+    "name": "新疆大学",
+    "province": "新疆",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "综合"
+  },
+  {
+    "id": 32,
+    "name": "宁夏大学",
+    "province": "宁夏",
+    "tags": [
+      "211",
+      "双一流"
+    ],
+    "type": "综合"
+  },
+  {
+    "id": 33,
+    "name": "青岛大学",
+    "province": "山东",
+    "tags": [],
+    "type": "综合"
+  },
+  {
+    "id": 34,
+    "name": "济南大学",
+    "province": "山东",
+    "tags": [],
+    "type": "综合"
+  },
+  {
+    "id": 35,
+    "name": "山东科技大学",
+    "province": "山东",
+    "tags": [],
+    "type": "理工"
+  },
+  {
+    "id": 36,
+    "name": "南通大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 37,
+    "name": "南京林业大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 38,
+    "name": "中国矿业大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 39,
+    "name": "上海师范大学天华学院",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 40,
+    "name": "上海应用技术大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 41,
+    "name": "上海电力大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 42,
+    "name": "齐齐哈尔大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 43,
+    "name": "东北电力大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 44,
+    "name": "河北地质大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 45,
+    "name": "天津财经大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 46,
+    "name": "喀什大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 47,
+    "name": "塔里木大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 48,
+    "name": "北方民族大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 49,
+    "name": "宁夏师范大学",
+    "province": "",
+    "tags": [],
+    "type": ""
+  },
+  {
+    "id": 50,
+    "name": "宁夏医科大学",
+    "province": "",
+    "tags": [],
+    "type": ""
   }
 ]
