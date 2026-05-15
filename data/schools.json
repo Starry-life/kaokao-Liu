@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "name": "北京大学",
+    "province": "北京",
+    "city": "北京",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合",
+    "website": "https://www.pku.edu.cn"
+  },
+  {
+    "id": 2,
+    "name": "清华大学",
+    "province": "北京",
+    "city": "北京",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合",
+    "website": "https://www.tsinghua.edu.cn"
+  },
+  {
+    "id": 3,
+    "name": "复旦大学",
+    "province": "上海",
+    "city": "上海",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合",
+    "website": "https://www.fudan.edu.cn"
+  },
+  {
+    "id": 4,
+    "name": "上海交通大学",
+    "province": "上海",
+    "city": "上海",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合",
+    "website": "https://www.sjtu.edu.cn"
+  },
+  {
+    "id": 5,
+    "name": "浙江大学",
+    "province": "浙江",
+    "city": "杭州",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合",
+    "website": "https://www.zju.edu.cn"
+  },
+  {
+    "id": 6,
+    "name": "南京大学",
+    "province": "江苏",
+    "city": "南京",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合",
+    "website": "https://www.nju.edu.cn"
+  },
+  {
+    "id": 7,
+    "name": "中国科学技术大学",
+    "province": "安徽",
+    "city": "合肥",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "理工",
+    "website": "https://www.ustc.edu.cn"
+  },
+  {
+    "id": 8,
+    "name": "哈尔滨工业大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "理工",
+    "website": "https://www.hit.edu.cn"
+  },
+  {
+    "id": 9,
+    "name": "西安交通大学",
+    "province": "陕西",
+    "city": "西安",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合",
+    "website": "https://www.xjtu.edu.cn"
+  },
+  {
+    "id": 10,
+    "name": "武汉大学",
+    "province": "湖北",
+    "city": "武汉",
+    "tags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "type": "综合",
+    "website": "https://www.whu.edu.cn"
+  }
+]

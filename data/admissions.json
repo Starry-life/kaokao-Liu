@@ -1,0 +1,92 @@
+[
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 1,
+    "major": "理科试验班",
+    "min_score": 692,
+    "min_rank": 100
+  },
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 2,
+    "major": "工科试验班",
+    "min_score": 695,
+    "min_rank": 80
+  },
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 3,
+    "major": "经济管理",
+    "min_score": 684,
+    "min_rank": 280
+  },
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 4,
+    "major": "电子信息",
+    "min_score": 686,
+    "min_rank": 220
+  },
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 5,
+    "major": "竺可桢学院",
+    "min_score": 679,
+    "min_rank": 400
+  },
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 6,
+    "major": "人工智能",
+    "min_score": 672,
+    "min_rank": 700
+  },
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 7,
+    "major": "计算机类",
+    "min_score": 676,
+    "min_rank": 550
+  },
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 8,
+    "major": "航天自动化",
+    "min_score": 650,
+    "min_rank": 3000
+  },
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 9,
+    "major": "电气工程",
+    "min_score": 644,
+    "min_rank": 3800
+  },
+  {
+    "year": 2024,
+    "province": "shandong",
+    "category": "physics",
+    "school_id": 10,
+    "major": "测绘工程",
+    "min_score": 639,
+    "min_rank": 4800
+  }
+]
