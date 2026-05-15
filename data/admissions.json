@@ -88,5 +88,4095 @@
     "major": "测绘工程",
     "min_score": 639,
     "min_rank": 4800
+  },
+  {
+    "school": "清华大学",
+    "province": "山西",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山西",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 639,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 685,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 663,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 656,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 672,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 669,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 666,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江苏",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江苏",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 653,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 671,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 663,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河南",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 692,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河南",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 659,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河南",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 651,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "上海",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 605,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "北京",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 687,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "北京",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 667,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "宁夏",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 649,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "陕西",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 691,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "陕西",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 627,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "四川",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "四川",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 643,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "四川",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 638,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "天津",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 689,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "天津",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 679,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "吉林",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 689,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "吉林",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 659,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山东",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 680,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山东",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 683,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山东",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 676,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 663,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 660,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "福建",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "福建",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 661,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "云南",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 688,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "云南",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 680,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广东",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 680,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广东",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 665,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 672,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 665,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "浙江",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 698,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "浙江",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 706,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 685,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 661,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "黑龙江",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 685,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "黑龙江",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 664,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 666,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "艺术史论",
+    "min_score": 660,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 679,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 667,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "辽宁",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 685,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "辽宁",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 668,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "安徽",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "安徽",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "马克思主义理论",
+    "min_score": 669,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "青海",
+    "year": 2024,
+    "batch": "提前批次",
+    "major": "理科定向",
+    "min_score": 637,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 673,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 627,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河南",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 689,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河南",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 654,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "宁夏",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 652,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "宁夏",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 626,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 665,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 661,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "四川",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "四川",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 635,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "云南",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 671,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "云南",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 676,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 685,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 658,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "安徽",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 686,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "安徽",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 668,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "海南",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "不限组",
+    "min_score": 740,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "陕西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 686,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "陕西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 633,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "黑龙江",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 688,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "黑龙江",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 653,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "吉林",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "吉林",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 638,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "理科",
+    "min_score": 675,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "文科",
+    "min_score": 653,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物理组",
+    "min_score": 667,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物化组",
+    "min_score": 668,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "历史组",
+    "min_score": 663,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物理组",
+    "min_score": 648,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物化组",
+    "min_score": 649,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "不限组",
+    "min_score": 650,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物理组",
+    "min_score": 667,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物化组",
+    "min_score": 669,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "不限组",
+    "min_score": 649,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物理组",
+    "min_score": 677,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物化组",
+    "min_score": 678,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "不限组",
+    "min_score": 653,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物理类",
+    "min_score": 679,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "物化组",
+    "min_score": 677,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2024,
+    "batch": "国家专项计划批次",
+    "major": "不限组",
+    "min_score": 656,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "上海",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 620,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "上海",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 619,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "上海",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 618,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "宁夏",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 661,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "宁夏",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 639,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "北京",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 697,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "北京",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 689,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "北京",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 688,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "浙江",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 707,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "浙江",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 708,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "浙江",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 711,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "天津",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 700,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "天津",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 696,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "天津",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 695,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "陕西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 700,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "陕西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 645,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "辽宁",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理类",
+    "min_score": 699,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "辽宁",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "历史类",
+    "min_score": 675,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "辽宁",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "医学类",
+    "min_score": 706,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山东",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理类",
+    "min_score": 691,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山东",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "通用类",
+    "min_score": 707,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山东",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "医学类",
+    "min_score": 693,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江苏",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理类",
+    "min_score": 694,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江苏",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化类",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江苏",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "历史类",
+    "min_score": 668,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "吉林",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理类",
+    "min_score": 698,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "吉林",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化类",
+    "min_score": 699,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "吉林",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "历史类",
+    "min_score": 662,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 695,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 640,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 689,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 691,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "历史组",
+    "min_score": 656,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "历史组",
+    "min_score": 661,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河南",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 696,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河南",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 658,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理类",
+    "min_score": 699,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "历史类",
+    "min_score": 673,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "医学类",
+    "min_score": 699,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "四川",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 696,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "四川",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 646,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 683,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 681,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 679,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "云南",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 698,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "云南",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 686,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广东",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 692,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广东",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 688,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广东",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "历史组",
+    "min_score": 665,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 680,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 681,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 669,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理类",
+    "min_score": 683,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "医学类",
+    "min_score": 686,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "通用类",
+    "min_score": 677,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 687,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山西",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 643,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "福建",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 696,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "福建",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 691,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "福建",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 662,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "新疆",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 641,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "新疆",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 623,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "西藏",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 639,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "西藏",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 568,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 692,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 670,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "青海",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "理科",
+    "min_score": 652,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "青海",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "文科",
+    "min_score": 681,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理类",
+    "min_score": 687,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "医学类",
+    "min_score": 693,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 672,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "黑龙江",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 704,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "黑龙江",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 704,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "黑龙江",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "安徽",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物理组",
+    "min_score": 702,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "安徽",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "物化组",
+    "min_score": 695,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "安徽",
+    "year": 2024,
+    "batch": "本科一批次",
+    "major": "不限组",
+    "min_score": 673,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1945.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "广西",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "湖南",
+    "min_score": 678,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "宁夏",
+    "min_score": 620,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "河南",
+    "min_score": 691,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "山西",
+    "min_score": 667,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "山东",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "江苏",
+    "min_score": 680,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "贵州",
+    "min_score": 670,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "甘肃",
+    "min_score": 659,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "吉林",
+    "min_score": 664,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "浙江",
+    "min_score": 698,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "江西",
+    "min_score": 677,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "安徽",
+    "min_score": 683,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "四川",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "天津",
+    "min_score": 698,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "福建",
+    "min_score": 678,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "辽宁",
+    "min_score": 679,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "黑龙江",
+    "min_score": 660,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "广东",
+    "min_score": 681,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "云南",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "陕西：690.",
+    "min_score": 139,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "重庆",
+    "min_score": 679,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "河北",
+    "min_score": 676,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "江西",
+    "min_score": 658,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "河南：论",
+    "min_score": 675,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "山西",
+    "min_score": 628,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "山东",
+    "min_score": 685,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "河北",
+    "min_score": 664,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "贵州",
+    "min_score": 678,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "北京",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "甘肃",
+    "min_score": 635,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "吉林",
+    "min_score": 616,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "浙江",
+    "min_score": 702,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "湖南",
+    "min_score": 660,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "安徽",
+    "min_score": 654,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "四川",
+    "min_score": 642,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "福建",
+    "min_score": 670,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "辽宁",
+    "min_score": 665,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "广东",
+    "min_score": 673,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "湖北",
+    "min_score": 662,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "重庆",
+    "min_score": 667,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "理科",
+    "min_score": 660,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 582,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "宁夏：理科",
+    "min_score": 635,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 623,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "河南：理科",
+    "min_score": 686,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 669,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "广西：理科",
+    "min_score": 647,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 650,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "山西：理科",
+    "min_score": 653,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 592,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "甘肃：理科",
+    "min_score": 645,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 618,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "安徽：理科",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 645,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "黑龙江：理科",
+    "min_score": 656,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 595,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "河北：理科",
+    "min_score": 669,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 649,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "云南：理科",
+    "min_score": 680,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 647,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "青海：理科",
+    "min_score": 608,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 588,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "四川：理科",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 628,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "贵州：理科",
+    "min_score": 669,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 668,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "新疆：理科（含南疆单列）",
+    "min_score": 633,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 612,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "吉林：理科",
+    "min_score": 660,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 609,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "西藏：理科",
+    "min_score": 687,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 632,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "重庆：理科",
+    "min_score": 676,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 658,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "江西：理科",
+    "min_score": 680,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 651,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "陕西：理科",
+    "min_score": 675,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 643,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "湖南：物理组",
+    "min_score": 675,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、物化组",
+    "min_score": 674,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、历史组",
+    "min_score": 649,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "湖北：物理组",
+    "min_score": 683,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、物化组",
+    "min_score": 678,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批",
+    "major": "、历史组",
+    "min_score": 655,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "上海",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理组",
+    "min_score": 619,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "上海",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、物化组",
+    "min_score": 618,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "上海",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、不限组",
+    "min_score": 629,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "北京",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理组",
+    "min_score": 685,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "北京",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、物化组",
+    "min_score": 685,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "北京",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、不限组",
+    "min_score": 691,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 674,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 648,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河南",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 698,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河南",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 685,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 689,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江西",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 659,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江苏",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理组",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江苏",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、物化组",
+    "min_score": 694,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "江苏",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、历史组",
+    "min_score": 673,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山西",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 674,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山西",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 634,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "浙江",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理类",
+    "min_score": 704,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "浙江",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、医学类",
+    "min_score": 704,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "浙江",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、通用类",
+    "min_score": 716,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广西",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 670,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "宁夏",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 640,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "宁夏",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 642,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "天津（1",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "1）：物理组",
+    "min_score": 703,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "天津（1",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、物化组",
+    "min_score": 704,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "天津（1",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、不限组",
+    "min_score": 705,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "贵州",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 679,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广东",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理组",
+    "min_score": 693,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广东",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、物化组",
+    "min_score": 694,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "广东",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、历史组",
+    "min_score": 674,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山东",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理类",
+    "min_score": 691,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山东",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、医学类",
+    "min_score": 694,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "山东",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、通用类",
+    "min_score": 711,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 667,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "甘肃",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 641,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理组",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、物化组",
+    "min_score": 688,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖南",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、历史组",
+    "min_score": 666,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "安徽",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 689,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "安徽",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 655,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "黑龙江",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科675.",
+    "min_score": 145,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "黑龙江",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 620,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "辽宁",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理类",
+    "min_score": 697,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "辽宁",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、医学类",
+    "min_score": 697,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "辽宁",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、通用类",
+    "min_score": 668,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "云南",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 698,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "云南",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 677,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "吉林",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 676,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "吉林",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 626,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理组",
+    "min_score": 693,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、物化组",
+    "min_score": 693,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "湖北",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、历史组",
+    "min_score": 668,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "陕西",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 699,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "陕西",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 676,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "福建",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理组",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "福建",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、物化组",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "福建",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、历史组",
+    "min_score": 672,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "青海",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 635,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "青海",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 621,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "四川",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 698,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "四川",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 647,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理类",
+    "min_score": 689,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、医学类",
+    "min_score": 692,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "重庆",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、历史类",
+    "min_score": 667,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "物理类",
+    "min_score": 687,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、医学类",
+    "min_score": 690,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "河北",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、历史类",
+    "min_score": 670,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "西藏",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科（汉）",
+    "min_score": 694,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "西藏",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、（民）",
+    "min_score": 630,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "西藏",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "文科（民）",
+    "min_score": 487,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "新疆",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "理科",
+    "min_score": 655,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "新疆",
+    "year": 2023,
+    "batch": "本科一批次：",
+    "major": "、文科",
+    "min_score": 624,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1808.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "北京不限组",
+    "min_score": 689,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物理组",
+    "min_score": 688,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物化组",
+    "min_score": 688,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "内蒙古理科",
+    "min_score": 668,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 624,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "吉林理科",
+    "min_score": 675,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 636,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "宁夏理科",
+    "min_score": 637,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 619,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "广西理科",
+    "min_score": 681,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 671,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "广东物理组",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物化组",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、历史组",
+    "min_score": 655,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "天津物理组",
+    "min_score": 710,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物化组",
+    "min_score": 708,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、不限组",
+    "min_score": 713,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "浙江通用基础类",
+    "min_score": 710,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物理基础类",
+    "min_score": 695,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、临床医学类",
+    "min_score": 696,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "江苏物理组",
+    "min_score": 674,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物化组",
+    "min_score": 674,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、历史组",
+    "min_score": 639,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "山西理科",
+    "min_score": 667,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 627,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "河南理科",
+    "min_score": 684,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 652,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "江西理科",
+    "min_score": 670,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 644,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "黑龙江理科",
+    "min_score": 665,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 633,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "贵州理科",
+    "min_score": 664,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 679,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "安徽理科",
+    "min_score": 687,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 642,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "辽宁物理基础类",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、临床医学类",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、通用基础类",
+    "min_score": 661,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "云南理科",
+    "min_score": 705,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 697,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "湖南物理I组",
+    "min_score": 674,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物理II组",
+    "min_score": 669,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物化I组",
+    "min_score": 678,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物化II组",
+    "min_score": 670,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、历史组",
+    "min_score": 650,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "山东物理基础类",
+    "min_score": 672,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、临床医学类",
+    "min_score": 672,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、通用基础类",
+    "min_score": 687,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "湖北物理I组",
+    "min_score": 680,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物理II组",
+    "min_score": 676,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物化I组",
+    "min_score": 681,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物化II组",
+    "min_score": 676,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、历史组",
+    "min_score": 659,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "四川理科",
+    "min_score": 693,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 655,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "甘肃理科",
+    "min_score": 648,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 622,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "陕西理科",
+    "min_score": 687,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 655,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "河北物理基础类",
+    "min_score": 673,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、临床医学类",
+    "min_score": 674,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、通用基础类",
+    "min_score": 665,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "青海理科",
+    "min_score": 622,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 615,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "新疆理科",
+    "min_score": 642,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、文科",
+    "min_score": 602,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "重庆物理基础类",
+    "min_score": 681,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、临床医学类",
+    "min_score": 682,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、通用基础类",
+    "min_score": 662,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "福建物理组",
+    "min_score": 677,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、物化组",
+    "min_score": 679,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
+  },
+  {
+    "school": "清华大学",
+    "province": "高考统招",
+    "year": 2022,
+    "batch": "本科一批",
+    "major": "、历史组",
+    "min_score": 659,
+    "source": "join-tsinghua.edu.cn",
+    "source_url": "https://join-tsinghua.edu.cn/info/1032/1683.htm"
   }
 ]
