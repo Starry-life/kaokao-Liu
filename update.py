@@ -127,58 +127,143 @@ def git_push(message=None):
     result = subprocess.run(['git', 'push', 'origin', 'main'], cwd=HERE, capture_output=True, text=True)
     print(f'  Push: {result.stdout.strip() or result.stderr.strip()}')
 
+def scrape_eol_score_lines():
+    """Scrape score lines from eol.cn (structured HTML tables)"""
+    import requests, re
+    from bs4 import BeautifulSoup
+    
+    print('\n=== Scraping eol.cn score lines ===')
+    url = 'https://gaokao.eol.cn/e_html/gk/fsx/index.shtml'
+    try:
+        r = requests.get(url, headers={'User-Agent': UA}, timeout=15)
+        soup = BeautifulSoup(r.text, 'html.parser')
+    except Exception as e:
+        print(f'  Error loading page: {e}')
+        return []
+    
+    records = []
+    current_province = ''
+    current_year = 2025
+    
+    # Province names (to detect from surrounding context)
+    prov_names = ['北京','天津','上海','重庆','河北','山西','辽宁','吉林','黑龙江','江苏','浙江','安徽','福建','江西','山东','河南','湖北','湖南','广东','广西','海南','四川','贵州','云南','西藏','陕西','甘肃','青海','宁夏','新疆','内蒙古']
+    
+    # Walk all elements - find province headings then extract their tables
+    all_elems = list(soup.find_all(['h1','h2','h3','h4','strong','table','p','div']))
+    
+    for i, elem in enumerate(all_elems):
+        if elem.name in ['h1','h2','h3','h4','strong']:
+            text = elem.get_text(strip=True)
+            for p in prov_names:
+                if p in text:
+                    current_province = p
+                    ym = re.search(r'20\d{2}', text)
+                    if ym:
+                        current_year = int(ym.group())
+                    break
+        elif elem.name == 'table' and current_province:
+            rows = elem.find_all('tr')
+            if len(rows) < 2:
+                continue
+            # Check this table has score numbers
+            all_text = elem.get_text()
+            if not re.search(r'\d{3}', all_text):
+                continue
+            # Simple approach: first column = batch, find column with 3-digit numbers = score
+            for row in rows[1:]:
+                cells = [c.get_text(strip=True) for c in row.find_all(['th','td'])]
+                if len(cells) < 2:
+                    continue
+                # Find column with 3-digit score
+                for j in range(1, len(cells)):
+                    m = re.search(r'\d{3}', cells[j])
+                    if m:
+                        score = int(m.group())
+                        batch = cells[0] if cells[0] else cells[j-1] if j > 0 else ''
+                        if 100 <= score <= 750:
+                            record = {
+                                'province': current_province,
+                                'year': current_year,
+                                'batch': batch,
+                                'min_score': score,
+                                'source': 'eol.cn',
+                                'source_url': url,
+                                'updated_at': datetime.now().isoformat()
+                            }
+                            records.append(record)
+    
+    print(f'  Extracted {len(records)} score line records')
+    return records
 def main():
     import argparse
     parser = argparse.ArgumentParser(description='Gaokao Data Updater')
-    parser.add_argument('--limit', type=int, default=5, help='Max articles to scrape')
-    parser.add_argument('--push', action='store_true', help='Auto git push after update')
+    parser.add_argument('--limit', type=int, default=5, help='Max dxsbb articles')
+    parser.add_argument('--push', action='store_true', help='Auto git push')
+    parser.add_argument('--source', choices=['dxsbb','eol','all'], default='all', help='Data source')
     args = parser.parse_args()
 
     print(f'========== Gaokao Data Updater ==========')
     print(f'Time: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}')
+    print(f'Source: {args.source}')
 
-    # 1. Scrape dxsbb
-    print('\n[1/3] Collecting article list from dxsbb.com...')
-    articles = scrape_dxsbb_list()
-    articles = articles[:args.limit]
-
-    # 2. Parse each article
-    print(f'\n[2/3] Parsing {len(articles)} articles...')
     existing = load_json('admissions.json') or []
-    existing_urls = set()
-    for a in existing:
-        if isinstance(a, dict) and 'source_url' in a:
-            existing_urls.add(a['source_url'])
-
     new_count = 0
-    for i, art in enumerate(articles):
-        if art['url'] in existing_urls:
-            print(f'  [{i+1}/{len(articles)}] SKIP: {art["title"][:50]}')
-            continue
-        print(f'  [{i+1}/{len(articles)}] Scraping: {art["title"][:50]}')
-        records = scrape_dxsbb_article(art)
-        for rec in records:
-            rec['source_url'] = art['url']
-            rec['source_title'] = art['title']
-            rec['updated_at'] = datetime.now().isoformat()
-            existing.append(rec)
-            new_count += 1
-        print(f'    -> {len(records)} records extracted')
-        time.sleep(1)
 
-    # 3. Save and optionally push
-    print(f'\n[3/3] Saving results...')
+    # --- EOL.CN ---
+    if args.source in ('eol', 'all'):
+        eol_records = scrape_eol_score_lines()
+        eol_dedup = {}
+        for a in existing:
+            if isinstance(a, dict):
+                k = f"eol_{a.get('province','')}_{a.get('year','')}_{a.get('batch','')}"
+                eol_dedup[k] = True
+        added = 0
+        for rec in eol_records:
+            k = f"eol_{rec.get('province','')}_{rec.get('year','')}_{rec.get('batch','')}"
+            if k not in eol_dedup:
+                rec['source_url'] = 'https://gaokao.eol.cn/e_html/gk/fsx/index.shtml'
+                existing.append(rec)
+                eol_dedup[k] = True
+                added += 1
+        new_count += added
+        print(f'  EOL: {len(eol_records)} extracted, {added} new records added')
+
+    # --- DXSBB ---
+    if args.source in ('dxsbb', 'all'):
+        print('=== DXSBB ===')
+        existing_urls = set()
+        for a in existing:
+            if isinstance(a, dict) and 'source_url' in a:
+                existing_urls.add(a['source_url'])
+        articles = scrape_dxsbb_list()
+        articles = articles[:args.limit]
+        print(f'  Parsing {len(articles)} articles...')
+        for i, art in enumerate(articles):
+            if art['url'] in existing_urls:
+                continue
+            print(f'  [{i+1}/{len(articles)}] {art["title"][:50]}')
+            records = scrape_dxsbb_article(art)
+            for rec in records:
+                rec['source_url'] = art['url']
+                rec['source_title'] = art['title']
+                rec['updated_at'] = datetime.now().isoformat()
+                existing.append(rec)
+                new_count += 1
+            print(f'    -> {len(records)} records')
+            time.sleep(0.5)
+
+    # --- SAVE ---
     if new_count > 0:
         save_json('admissions.json', existing)
-        print(f'\n=== RESULT ===')
-        print(f'New records: {new_count}')
-        print(f'Total records: {len(existing)}')
+        print(f'=== RESULT: +{new_count} new records, {len(existing)} total ===')
         if args.push:
-            git_push(f'Auto update: +{new_count} admission records')
+            git_push(f'Auto update: +{new_count} records')
     else:
-        print('No new records found. Data is up to date.')
+        print('No new records. Data is up to date.')
 
-    print('\nDone!')
-
+    print('Done!')
 if __name__ == '__main__':
     main()
+
+# ===== EOL.CN SCRAPER =====
+
