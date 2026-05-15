@@ -169,6 +169,38 @@ window.onerror = function(msg, url, line) {
 };
 
 // ============ DATA ============
+
+var _externalDataLoaded = false;
+function loadExternalData() {
+  if (_externalDataLoaded) return;
+  fetch('data/schools.json').then(function(r){return r.json()}).then(function(schools){
+    console.log('Loaded ' + schools.length + ' schools from JSON');
+    fetch('data/admissions.json').then(function(r2){return r2.json()}).then(function(admissions){
+      console.log('Loaded ' + admissions.length + ' admission records from JSON');
+      if (admissions.length > 0) {
+        var schoolMap = {};
+        schools.forEach(function(s){ schoolMap[s.id] = s; });
+        schoolsData = admissions.map(function(a){
+          var s = schoolMap[a.school_id] || {};
+          return {
+            id: a.school_id || 0,
+            name: s.name || a.school || 'Unknown',
+            province: s.province || a.province || '',
+            tags: s.tags || [],
+            type: s.type || '',
+            minRank: a.min_rank || 999999,
+            minScore: a.min_score || 0,
+            major: a.major || '',
+            year: a.year || 2025
+          };
+        });
+      }
+      _externalDataLoaded = true;
+      console.log('External data loaded: ' + schoolsData.length + ' entries');
+    }).catch(function(){ console.log('admissions.json not available'); });
+  }).catch(function(){ console.log('schools.json not available, using default'); });
+}
+loadExternalData();
 var oneSectionData={
 shandong:{2024:{physics:{700:35,695:80,690:150,685:260,680:420,675:640,670:930,665:1300,660:1750,655:2300,650:3000,645:3800,640:4800,635:5900,630:7200,625:8700,620:10400,615:12300,610:14500,605:16800,600:19500,595:22300,590:25500,585:28900,580:32600,575:36600,570:40800,565:45300,560:50100,555:55200,550:60600,545:66300,540:72300,535:78600,530:85200,525:92100,520:99300,515:106800,510:114600,505:122700,500:131100,495:139800,490:148800,485:158100,480:167700,475:177600,470:187800,465:198300,460:209100,455:220200,450:231600},
 history:{680:3,675:8,670:18,665:40,660:80,655:140,650:240,645:380,640:580,635:850,630:1200,625:1650,620:2200,615:2900,610:3700,605:4600,600:5700,595:6900,590:8300,585:9800,580:11500,575:13400,570:15500,565:17800,560:20300,555:23000,550:25900,545:29000,540:32300,535:35800,530:39500,525:43400,520:47500}}},
